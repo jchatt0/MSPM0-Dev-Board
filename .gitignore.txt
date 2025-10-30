@@ -1,2 +1,2 @@
-*backups
-/MSPM0_Dev_board-backups
+**/*backups/
+/*backups
