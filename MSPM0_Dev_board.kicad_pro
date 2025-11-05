@@ -25,7 +25,40 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1231900|1244600|86485af6-2a3f-4af5-8e3c-3ebd2ef4753d|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1943100|1206500|418d3ea7-46a7-4a8c-9451-a9b2248795c2|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2476500|1028700|7df24f3a-3b40-43eb-9def-39aa2ec17d98|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|292100|457200|985c282d-e642-4996-88b3-430f01e19a14|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|876300|622300|7982b0c8-ee8b-408d-b2e6-d7b06710b166|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_to_pin|1104900|241300|e700719b-3663-4de7-bffd-d53103fe5146|9a542100-ed0c-4a80-9296-d1da8a1ac13e|/5d2df200-f45c-4dfc-bb77-b9cb496db905|/5d2df200-f45c-4dfc-bb77-b9cb496db905|/5d2df200-f45c-4dfc-bb77-b9cb496db905",
+        ""
+      ],
+      [
+        "pin_to_pin|1155700|241300|d9266629-bd7b-4d73-b25c-a9701e5e0464|e700719b-3663-4de7-bffd-d53103fe5146|/5d2df200-f45c-4dfc-bb77-b9cb496db905|/5d2df200-f45c-4dfc-bb77-b9cb496db905|/5d2df200-f45c-4dfc-bb77-b9cb496db905",
+        ""
+      ],
+      [
+        "pin_to_pin|2374900|1028700|0e5c4b41-571b-49ec-8039-b804591514b5|8b5dfc1d-e5e0-4d9e-8a59-16eec18209aa|/5d2df200-f45c-4dfc-bb77-b9cb496db905|/5d2df200-f45c-4dfc-bb77-b9cb496db905|/5d2df200-f45c-4dfc-bb77-b9cb496db905",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -272,6 +305,12 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 194, 0)"
       }
     ],
     "meta": {
@@ -279,7 +318,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "/USB*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
